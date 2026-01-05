@@ -23,12 +23,23 @@ Then('devo visualizar o conteúdo do post', () => {
 
 When('realizo uma busca pelo termo {string}', (termo) => {
 
-  cy.get('.ast-search-menu-icon.slide-search').click();
+  cy.get('.site-header-above-section-right > .ast-builder-layout-element')
+    .should('be.visible')
+    .click({ force: true });
 
+  cy.CliqueLupa('.search-form');
 
-  cy.get('input[type="search"]').type(`${termo}{enter}`);
+  cy.get('.search-form')
+  .type(termo)
+  .submit();
+
 });
 
 Then('devo visualizar posts relacionados ao termo buscado', () => {
   cy.get('article').should('have.length.greaterThan', 0);
+  
+  cy.get('.ast-archive-title')
+  .should('be.visible')
+  .and('contain.text', 'Resultados encontrados para: tecnologia');
+  
 });
