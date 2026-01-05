@@ -41,16 +41,14 @@ Este projeto possui uma pipeline configurada no GitHub Actions, que executa os t
 
     Confirme a execução
 
-✅ Isso permite que o avaliador execute os testes sem rodar nada localmente.
+    Isso permite que o avaliador execute os testes sem rodar nada localmente.
 
 ✅ Pré-requisitos (Linux e Windows)
 
 Antes de iniciar, é necessário ter instalado:
 
-Node.js Versão ^18
+Node.js Versão 18 ou superior
 👉 https://nodejs.org
-
-Git
 
 Navegador Google Chrome ou Edge
 
