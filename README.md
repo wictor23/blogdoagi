@@ -36,7 +36,7 @@ Este projeto possui uma pipeline configurada no GitHub Actions, que executa os t
     Clique em Run workflow
     Confirme a execução
     Isso permite que o avaliador execute os testes sem rodar nada localmente.
-<img src="docs/images/pipeline-run.png" alt="Run workflow Cypress" width="700"/>
+<img src="docs/images/pipeline-run.png" alt="Run workflow Cypress" width="1000"/>
 
 
 ✅ Pré-requisitos (Linux e Windows)
