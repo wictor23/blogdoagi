@@ -1,0 +1,13 @@
+{
+  "dependencies": {},
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run"
+  },
+  "devDependencies": {
+    "cypress": "13.6.0",
+    "@badeball/cypress-cucumber-preprocessor": "20.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
+    "esbuild": "0.19.12"
+  }
+}
