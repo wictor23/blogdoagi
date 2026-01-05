@@ -30,18 +30,14 @@ Este projeto possui uma pipeline configurada no GitHub Actions, que executa os t
 ▶️ Trigger manual da pipeline
 
     A pipeline pode ser executada manualmente através de um botão:
-
     Acesse o repositório no GitHub
-
     Clique em Actions
-
     Selecione o workflow Cypress Tests
-
     Clique em Run workflow
-
     Confirme a execução
-
     Isso permite que o avaliador execute os testes sem rodar nada localmente.
+<img src="docs/images/pipeline-run.png" alt="Run workflow Cypress" width="700"/>
+
 
 ✅ Pré-requisitos (Linux e Windows)
 
