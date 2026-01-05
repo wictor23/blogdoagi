@@ -31,7 +31,6 @@ jobs:
 
       - name: Executar testes Cypress
         run: npx cypress run
-        continue-on-error: true
 
       - name: Upload screenshots
         if: always()

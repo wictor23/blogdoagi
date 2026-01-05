@@ -22,9 +22,7 @@ Then('devo visualizar o conteúdo do post', () => {
 });
 
 When('realizo uma busca pelo termo {string}', (termo) => {
-  cy.wait(2000)
-  //cy.get('.ast-search-menu-icon.slide-search').click({force:true});
-  cy.wait(2000)
+
   cy.get('.ast-search-menu-icon.slide-search').click();
 
 

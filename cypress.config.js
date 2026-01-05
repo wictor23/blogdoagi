@@ -11,9 +11,12 @@ module.exports = defineConfig({
     env: {
       stepDefinitions: "cypress/step_definitions/**/*.{js,ts}",
     },
-
-    video: true,                
-    screenshotOnRunFailure: false, 
+    retries: {
+      runMode: 2, 
+      openMode: 0  
+    },
+    video: true,
+    screenshotOnRunFailure: false,
 
     async setupNodeEvents(on, config) {
       await addCucumberPreprocessorPlugin(on, config);
