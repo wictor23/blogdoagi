@@ -16,12 +16,12 @@ Cypress + BDD (Gherkin)
 
 🧠 Abordagem de Teste
 
-Testes funcionais
-Escrita dos cenários em BDD (Given / When / Then)
-Separação clara entre:
-Features (.feature)
-Step Definitions
-Commands reutilizáveis
+    Testes funcionais
+    Escrita dos cenários em BDD (Given / When / Then)
+    Separação clara entre:
+    Features (.feature)
+    Step Definitions
+    Commands reutilizáveis
 
 🚀 Pipeline CI/CD (GitHub Actions)
 
